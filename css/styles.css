@@ -1,0 +1,32 @@
+/* section h1 {
+    background-color: blue;
+     
+}
+
+@media only screen and (max-width:480px) {
+    section h1 {
+        background-color: red;
+    }
+} */
+section h1 {
+    background-color: yellow;
+    height: 100px;
+    text-align: center;
+  }
+  @media only screen and (min-width: 600px) {
+    section h1 {
+      background-color: green;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    section h1 {
+      background-color: rgb(11, 0, 128);
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    section h1 {
+      background-color: rgba(195, 53, 21, 0.627);
+    }
+  }
